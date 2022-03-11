@@ -1,0 +1,2 @@
+1 - Colocar um label e um input, com o mesmo id, para que quando clicado no label ele joga para o input
+2 - Página 2 = fazer um fundo com a foto nossa, colocar um texto com o background transparente, com uma frase gostosa
