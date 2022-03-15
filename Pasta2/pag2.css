@@ -10,8 +10,8 @@
 }
 
 .msg { 
-    background:rgb(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
+    background:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(11px);
     position: absolute;
     top: 400px;
     left: 50%;
@@ -39,7 +39,7 @@ p {
     color:rgb(0, 0, 0);
     font-size: 20px;
     font-weight: bold; /* Deixar tudo em negrito */
-    font-family: 'Roboto';
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .botao {
