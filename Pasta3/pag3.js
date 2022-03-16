@@ -5,10 +5,12 @@ function sorteio(){
     "A espreita do Mal", "Yara", "Estomago", "Fratura", "Sete minutos depois da meia-noite ", "OldBoy", "O operário", "Cisne Negro",
     "Trainspotting - Sem limites"]
 
-    let sorteio = Math.floor(Math.random() * listaNomeFilme.length);
-    console.log(listaNomeFilme[sorteio]);
+    let randonIndex = Math.floor(Math.random() * listaNomeFilme.length);
+
+    let element = document.getElementById('mostrar')
+    element.innerHTML = listaNomeFilme[randonIndex]
 }
 
-var botao = document.getElementById("buscar");
-botao.addEventListener("click",sorteio);
-
+function voltar(){
+    window.location.href = "../Pasta2/pag2.html"
+}

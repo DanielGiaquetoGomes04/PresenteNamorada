@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#dc92ff, #151835);
+}
+
+.principal h2 {
+    margin: 30px;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.sorteio {
+    
+}

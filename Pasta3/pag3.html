@@ -4,15 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Sorteio filme</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="pag3.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <form>
-        <div id = "campo" class="campo">
-          <button id="buscar" onclick="sorteio">Sortear</button>
-          <div id = "resultado"></div>
-        </div>
-    </form>
-    <script src="script.js"></script>
+    <div class = "principal">
+      <h2>Sorteio do Date</h2>
+      <div class = "apresentacao">
+        <button onclick="sorteio()" class = "sorteio">SORTEAR</button>
+        <p id = "mostrar" class = "mostrar"></p>
+      </div>
+      <div>
+        <a href="#" onclick="voltar()">
+          <button class = "voltarPag" id = "voltarPag">
+            VOLTAR
+          </button>
+        </a>
+      </div>
+    </div>
+    <script src="./pag3.js"></script>
   </body>
 </html>
