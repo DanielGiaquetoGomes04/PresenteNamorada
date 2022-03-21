@@ -19,7 +19,7 @@
     display: inline;
 }
 
-#menu-h ul li a{
+#menu-h ul li .sorteio{
     color: #FFF;
     padding: 20px;
     display: inline-block;
@@ -27,7 +27,7 @@
     transition: background .2s;
 }
 
-#menu-h ul li a:hover {
+.sorteio:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(70, 70, 70, 0.6));
     color: rgba(207, 207, 207, 1);
 }
@@ -64,9 +64,11 @@ p {
 }
 
 .botao {
-    position: absolute;
+    position: relative;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-right: 10%;
+    float: right; /* Fez com que o botão ficasse na direita */
     padding: 15px;
     /* arrumar a localização do botão */
     background: transparent; 
@@ -81,26 +83,12 @@ p {
     letter-spacing: 3px;
 }
 
-/*  position: absolute;
-    right: 40px;
-    bottom: auto;
-    width: 200px;
-    padding: 15px;
-    background: transparent; 
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0.6);
-    border-radius: 5px;
-    text-align: center;
-    color: rgb(235, 227, 227);
-    font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 3px;
-*/
-
 .botao:hover {
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .botao:after {
