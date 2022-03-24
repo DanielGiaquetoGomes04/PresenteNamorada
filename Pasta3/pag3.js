@@ -11,6 +11,6 @@ function sorteio(){
     element.innerHTML = listaNomeFilme[randonIndex]
 }
 
-function voltar(){
+function texto(){
     window.location.href = "../Pasta2/pag2.html"
 }

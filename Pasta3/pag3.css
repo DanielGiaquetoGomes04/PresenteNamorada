@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -9,7 +15,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     background: linear-gradient(#dc92ff, #151835);
 }
 
@@ -18,4 +23,67 @@ body {
     padding: 0;
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+.sorteio {
+    position: relative;
+    background: rgba(104, 77, 255, 0.4);
+    padding: 10px;
+    border-radius: 7px; 
+    box-shadow: 0 5px 10px rgba(0,0,0.4);
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 15px;
+    display: flex;
+    cursor: pointer;
+}  
+
+.sorteio:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.mostrar {
+    position: relative;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; /* isso fez com que o P ficasse centralizado */
+    background-color: transparent;
+    padding: 15px;
+    width: 50%;
+}
+
+.texto {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .2s;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none; /* remover as bolinhas da ul */
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(40, 20, 212, 0));
+}
+
+ul li {
+    display: inline;
+}
+
+ul li .texto{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .2s;
+}
+
+.texto:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(70, 70, 70, 0.6));
+    color: rgba(207, 207, 207, 1);
 }

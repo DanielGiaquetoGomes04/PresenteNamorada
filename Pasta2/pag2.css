@@ -25,6 +25,7 @@
     display: inline-block;
     text-decoration: none;
     transition: background .2s;
+    cursor: pointer;
 }
 
 .sorteio:hover {
@@ -70,7 +71,6 @@ p {
     margin-right: 10%;
     float: right; /* Fez com que o botão ficasse na direita */
     padding: 15px;
-    /* arrumar a localização do botão */
     background: transparent; 
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0.6);
@@ -104,29 +104,6 @@ p {
             transform: rotate(-45deg);
 }
 
-/*
-.botao {
-    position: absolute;
-    right: 40px;
-    bottom: auto;
-    width: 200px;
-    padding: 15px;
-    background: transparent; 
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0.6);
-    border-radius: 5px;
-    text-align: center;
-    color: rgb(235, 227, 227);
-    font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 3px;
-}
-
-.botao:hover {
-    color: black;
-    background: rgb(252, 252, 252);
-}
-*/
 #seta {
     position: absolute;
     padding: 20px;
